@@ -1,0 +1,123 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    background-color: #e0e5ec;
+}
+.light {
+	display: flex;
+	width: 980px;
+	height: 300px;
+	align-items: center;
+	justify-content: space-around;
+}
+.light_2 {
+	display: flex;
+	width: 780px;
+	height: 200px;
+	align-items: center;
+	justify-content: space-around;
+    margin: 0 auto;
+}
+.circle {
+	position: relative;
+	display: flex;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	align-items: center;
+	justify-content: center;
+}
+.circle:before {
+	position: absolute;
+	display: block;
+	width: 150px;
+	height: 150px;
+	content: " ";
+	cursor: pointer;
+	transition: 0.3s ease-out;
+	border-radius: 150px;
+	filter: blur(7px);
+    box-shadow: 8px 8px 20px #a9a8b7, -8px -8px 20px #fff;
+}
+.circle:hover:before {
+	box-shadow: 8px 8px 20px #a9a8b7, -8px -8px 20px #fff,
+		inset -8px -8px 20px #fff, inset 8px 8px 20px #a9a8b7;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light .btn_1, .btn_2, .btn_3, .btn_4, .btn_5, .btn_6, .btn_7, .btn_8, .btn_9, .btn_10{
+    text-decoration: none;
+    font-family: 'Rubik Moonrocks';
+    color: rgb(139, 139, 139);
+    font-size: 65px;
+}
+.light .btn_1:hover{
+    color: rgb(116, 157, 229);
+    text-shadow: rgb(184, 209, 252) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light .btn_2:hover{
+    color: rgb(229, 116, 193);
+    text-shadow: rgb(252, 195, 234) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light .btn_3:hover{
+    color: rgb(235, 165, 14);
+    text-shadow: rgb(253, 219, 145) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light .btn_4:hover{
+    color: rgb(249, 18, 52);
+    text-shadow: rgb(251, 156, 170) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light .btn_5:hover{
+    color: rgb(144, 178, 10);
+    text-shadow: rgb(199, 250, 137) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light_2 .btn_6:hover{
+    color: rgb(252, 103, 34);
+    text-shadow: rgb(250, 160, 119) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light_2 .btn_7:hover{
+    color: rgb(74, 76, 240);
+    text-shadow: rgb(150, 151, 255) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light_2 .btn_8:hover{
+    color: rgb(37, 150, 45);
+    text-shadow: rgb(132, 235, 139) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light_2 .btn_9:hover{
+    color: rgb(155, 64, 204);
+    text-shadow: rgb(195, 140, 225) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+.light_2 .btn_10:hover{
+    color: rgb(213, 5, 92);
+    text-shadow: rgb(241, 119, 170) 1px 0 10px;
+    transition: 0.3s ease-in;
+    transform: scale(1.05);
+}
+
+
+
+
+
